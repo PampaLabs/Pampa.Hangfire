@@ -1,0 +1,23 @@
+<Project>
+
+    <PropertyGroup>
+        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageVersion Include="Hangfire.AspNetCore" Version="1.8.18" />
+        <PackageVersion Include="Hangfire.Core" Version="1.8.18" />
+        <PackageVersion Include="Hangfire.NetCore" Version="1.8.18" />
+        <PackageVersion Include="Hangfire.SqlServer" Version="1.8.18" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageVersion Include="Hangfire.Console" Version="1.4.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageVersion Include="Microsoft.Data.SqlClient" Version="6.0.1" />
+        <PackageVersion Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+    </ItemGroup>
+
+</Project>
